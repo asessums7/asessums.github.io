@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Places on Earth | Alex Sessums</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .name {
+            font-size: 18px;
+            color: #666; /* Grey font color */
+            text-transform: lowercase; /* Convert to lowercase */
+            margin-top: 20px; /* Adjust the top margin as needed */
+        }
+
+        .name a:hover {
+            text-decoration: underline;
+        }
+
+        .name a.active {
+            border-bottom: 1px solid #000;
+            font-weight: bold;
+        }
+
+        .section {
+            max-width: 1200px;
+            width: 100%;
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 1;
+            background-color: #fff;
+            border-radius: 5px;
+            margin: 0 10px 20px 10px;
+            padding: 5px;
+            text-align: center;
+            max-width: calc(33.33% - 20px);
+        }
+
+        .photo {
+            width: 100%;
+            height: 300px; /* Set the height for all photos */
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .section:nth-child(even) .column {
+            margin-left: 0; /* Remove left margin for even rows */
+            margin-right: 10px; /* Add right margin for even rows */
+        }
+
+        .section:nth-child(odd) .column {
+            margin-left: 10px; /* Add left margin for odd rows */
+            margin-right: 0; /* Remove right margin for odd rows */
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">
+            <p>
+    </div>
+
+    <div class="name">
+        <a href="index.html">home</a>
+        <a href="projects.html">projects</a>
+        <a href="thoughts.html">thoughts</a>
+        <a href="favorite_places.html" class="active">favorite places</a>
+        <a href="contact.html">contact</a>
+    </div>
+
+    <div class="section">
+        <!-- Place 1 -->
+        <div class="column">
+            <img src="/Users/asessums/Desktop/alex-sessums-portfolio/domino_square.jpg" alt="Place 1" class="photo">
+        </div>
+
+        <!-- Place 2 -->
+        <div class="column">
+            <img src="place2.jpg" alt="Place 2" class="photo">
+        </div>
+
+        <!-- Place 3 -->
+        <div class="column">
+            <img src="/Users/asessums/Desktop/alex-sessums-portfolio/alex _profile.jpg" alt="Place 3" class="photo">
+        </div>
+    </div>
+
+    <!-- Additional section for the next three photos -->
+    <div class="section">
+        <!-- Place 4 -->
+        <div class="column">
+            <img src="/Users/asessums/Desktop/alex-sessums-portfolio/domino_square.jpg" alt="Place 4" class="photo">
+        </div>
+
+        <!-- Place 5 -->
+        <div class="column">
+            <img src="/Users/asessums/Desktop/alex-sessums-portfolio/domino_square.jpg" alt="Place 5" class="photo">
+        </div>
+
+        <!-- Place 6 -->
+        <div class="column">
+            <img src="place6.jpg" alt="Place 6" class="photo">
+        </div>
+    </div>
+
+    <!-- Additional section for the next three photos -->
+    <div class="section">
+        <!-- Place 7 -->
+        <div class="column">
+            <img src="/Users/asessums/Desktop/alex-sessums-portfolio/domino_square.jpg" alt="Place 4" class="photo">
+        </div>
+
+        <!-- Place 8 -->
+        <div class="column">
+            <img src="/Users/asessums/Desktop/alex-sessums-portfolio/domino_square.jpg" alt="Place 5" class="photo">
+        </div>
+
+        <!-- Place 9 -->
+        <div class="column">
+            <img src="place6.jpg" alt="Place 6" class="photo">
+        </div>
+    </div>
+
+</body>
+</html>
